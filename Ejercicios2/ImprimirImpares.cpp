@@ -5,10 +5,12 @@ using namespace std;
 
 void numImpar(int num);
 
-int main() {
+int main(int argc, char const *argv[])
+{
     int num = 100;
     cout << "Numeros impares del 1 al " << num << " en orden descendente:" << endl;
     numImpar(num);
+    return 0;
     return 0;
 }
 
